@@ -4,12 +4,12 @@ import App from "./components/app/app.jsx";
 
 const init = () => {
   const settings = {
-    errorCount: 3
+    errorsCount: 3
   };
 
   ReactDOM.render(
       <App
-        errorCount={settings.errorCount}
+        errorsCount={settings.errorsCount}
       />,
       document.querySelector(`#root`)
   );
